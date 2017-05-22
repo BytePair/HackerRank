@@ -4,9 +4,11 @@ import java.util.*;
 
 class BigDecimal {
 
+    
     public static void main(String[] args) {
 
-        // input
+        
+        // get input
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         String[] s = new String[n+2];
@@ -33,7 +35,7 @@ class BigDecimal {
         }
 
 
-        // for each entry, add values back to original array
+        // for each key in the sorted navigableKeySet, add values back to original array
         int numsLeft = n - 1;
         for (Double d : mappy.navigableKeySet()) {            
             for (int j = mappy.get(d).size() - 1; j >= 0; j--) {
