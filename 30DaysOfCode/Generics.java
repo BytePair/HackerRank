@@ -3,12 +3,12 @@ import java.util.*;
 
 class Printer <T> {
 
-    public static <T> void printArray (T[] ts) {
+    public <T> void printArray (T[] ts) {
         for(T t : ts) {
             System.out.println(t);
         }
     }
-    
+
 }
 
 
