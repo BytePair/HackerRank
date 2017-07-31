@@ -21,7 +21,7 @@ class MyBook extends Book {
 }
 
 
-public class Main{
+public class Abstract {
 	
 	public static void main(String []args) {
 
